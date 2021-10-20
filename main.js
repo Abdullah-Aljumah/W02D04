@@ -31,14 +31,14 @@ const renderList = () => {
     li1.style.fontFamily = "cursive";
     // Buttons 1
     const buttons1 = document.createElement("button");
-    buttons1.className = "btn btn-primary ";
+    buttons1.className = "btn btn-danger ";
     buttons1.style.margin = "5%";
     buttons1.style.flexDirection = "row";
-
+    
     // Buttons 4
     const buttons4 = document.createElement("button");
     buttons4.style.width = "90px";
-    buttons4.className = "btn btn-danger";
+    buttons4.className = "btn btn-primary";
 
     buttons1.innerHTML = "Delete";
 
