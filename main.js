@@ -102,13 +102,13 @@ button1.addEventListener("click", () => {
     const buttons2 = document.createElement("button");
     buttons2.style.width = "90px";
     buttons2.style.margin = "5px";
-    buttons2.className = "btn btn-primary";
+    buttons2.className = "btn btn-danger";
     buttons2.style.margin = "5%";
 
     // Button 5 to Update
     const buttons5 = document.createElement("button");
     buttons5.style.width = "90px";
-    buttons5.className = "btn btn-danger";
+    buttons5.className = "btn btn-primary";
     buttons5.style.margin = "5%";
 
     buttons2.innerHTML = "Delete";
