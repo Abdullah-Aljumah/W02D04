@@ -29,7 +29,6 @@ const renderList = () => {
     const li1 = document.createElement("li");
     li1.style.fontSize = "2.5rem";
     li1.style.fontFamily = "cursive";
-
     // Buttons 1
     const buttons1 = document.createElement("button");
     buttons1.className = "btn btn-primary ";
@@ -96,6 +95,7 @@ button1.addEventListener("click", () => {
   } else {
     const newItem = document.createElement("li");
     newItem.innerHTML = input1.value;
+
     newItem.style.fontSize = "2.5rem";
 
     // Buttons 2 to remove
@@ -132,3 +132,7 @@ button1.addEventListener("click", () => {
     });
   }
 });
+
+// let retItem = localStorage.getItem("testNewItem");
+// let retItemParse = JSON.parse(retItem);
+// document.querySelector(".item").innerHTML = retItemParse;
